@@ -1,0 +1,6 @@
+- name: test
+  shell: df -h
+
+- name: k8s apply commmmm
+  shell: kubectl apply -f .
+  delegate_to: localhost
